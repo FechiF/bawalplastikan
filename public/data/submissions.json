@@ -1,0 +1,70 @@
+[
+  {
+    "id": "demo-1",
+    "demo": true,
+    "type": "government",
+    "lguPcode": "PH0102812",
+    "ordinance": "Yes",
+    "programs": ["regulation", "reduction", "recovery", "iec"],
+    "rating": 4,
+    "details": "DEMO ENTRY. Placeholder text showing how a government submission appears: a city ordinance regulating single-use plastics, a refill-station promotion, and a barangay waste-recovery scheme.",
+    "createdAt": 1761000000000
+  },
+  {
+    "id": "demo-2",
+    "demo": true,
+    "type": "government",
+    "lguPcode": "PH0102805",
+    "ordinance": "Yes",
+    "programs": ["regulation", "eco-products", "community"],
+    "rating": 3,
+    "details": "DEMO ENTRY. Placeholder text. Imagine the city describing its bayong promotion and monthly clean-up drives here.",
+    "createdAt": 1761200000000
+  },
+  {
+    "id": "demo-3",
+    "demo": true,
+    "type": "msme",
+    "businessName": "Sample Refill Station (demo)",
+    "lguPcode": "PH0102812",
+    "ordinance": "Not sure",
+    "programs": ["reduction", "eco-products", "incentives"],
+    "rating": 5,
+    "details": "DEMO ENTRY. A small business entry that shares a city with a government entry, so the two pins fan out around the same spot.",
+    "createdAt": 1761400000000
+  },
+  {
+    "id": "demo-4",
+    "demo": true,
+    "type": "government",
+    "lguPcode": "PH0102906",
+    "ordinance": "No",
+    "programs": ["community", "iec", "partnerships"],
+    "rating": 2,
+    "details": "DEMO ENTRY. No ordinance yet, but community education and partnerships with local groups are under way.",
+    "createdAt": 1761500000000
+  },
+  {
+    "id": "demo-5",
+    "demo": true,
+    "type": "le",
+    "businessName": "Sample Beverage Co. (demo)",
+    "lguPcode": "PH0102906",
+    "ordinance": "Yes",
+    "programs": ["recovery", "recycling", "partnerships", "disposal"],
+    "rating": 4,
+    "details": "DEMO ENTRY. A large obliged enterprise describing its recovery and recycling programme under the EPR Act of 2022.",
+    "createdAt": 1761600000000
+  },
+  {
+    "id": "demo-6",
+    "demo": true,
+    "type": "government",
+    "lguPcode": "PH0102803",
+    "ordinance": "Not sure",
+    "programs": ["disposal", "iec"],
+    "rating": 3,
+    "details": "DEMO ENTRY. Placeholder text.",
+    "createdAt": 1761700000000
+  }
+]
