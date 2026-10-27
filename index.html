@@ -6,18 +6,35 @@
     <title>Bawal Plastikan – demo</title>
     <style>
       /* Stand-in for a WordPress theme, to check the embed doesn't fight it */
-      body { font-family: Georgia, serif; margin: 0; background: #fff; color: #333; }
-      .page { max-width: 1200px; margin: 0 auto; padding: 24px 16px 48px; }
-      .page h1 { font-size: 2rem; margin: 0 0 8px; }
-      .page p { line-height: 1.6; }
-      button { text-transform: uppercase; }
+      body {
+        font-family: Georgia, serif;
+        margin: 0;
+        background: #fff;
+        color: #333;
+      }
+      .page {
+        width: 100vw;
+        max-width: 100%;
+        height: 100vh;
+        max-height: 100vh;
+        overflow: hidden;
+        margin: 0 auto;
+        padding: 0;
+      }
+      /* .page h1 { font-size: 2rem; margin: 0 0 8px; } */
+      /* .page p { line-height: 1.6; } */
+      button {
+        text-transform: uppercase;
+      }
     </style>
   </head>
   <body>
     <div class="page">
-      <h1>Bawal Plastikan</h1>
-      <p>What are your community’s initiatives against single-use plastics?</p>
-      <div data-bawal-plastikan data-data-base="/data/" data-height="720px"></div>
+      <div
+        data-bawal-plastikan
+        data-data-base="/data/"
+        data-height="100vh"
+      ></div>
     </div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
